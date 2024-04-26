@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(243, 220, 191);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+img{
+    width: 300px;
+    height: 430px;
+    border-radius: 10px 0 0 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    padding: 40px;
+    background-color: white;
+    width: 210px;
+    height: 350px;
+    border-radius: 0 10px 0 10px;
+}
+
+h1{
+    font-size: 30px;
+    width: 200px;
+}
+h5{
+    color: rgb(124, 111, 95);
+    margin: 0;
+}
+p{
+    color: rgb(124, 111, 95);
+}
+
+.precos{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+}
+.preco-atual{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(44, 160, 44);
+
+}
+.preco-antigo{
+    margin: 20px;
+    font-size: 13px;
+}
+
+button{
+    margin: 5px 0 0 0;
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius:10px;
+}
